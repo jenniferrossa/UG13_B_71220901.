@@ -1,0 +1,31 @@
+import turtle
+
+s = turtle.Screen()
+t = turtle.Turtle()
+
+#drawingJ
+t.forward(50)
+t.right(90)
+t.forward(70)
+t.right(90)
+t.forward(50)
+
+t.penup()
+t.goto(90, 0)
+t.pendown()
+
+# #Drawing9
+t.forward(20)
+t.left(90)
+t.forward(40)
+t.left(90)
+t.forward(20)
+t.left(90)
+t.forward(30)
+t.right(180)
+t.forward(70)
+t.right(90)
+t.forward(20)
+
+
+s.exitonclick()
